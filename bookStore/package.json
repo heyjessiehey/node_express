@@ -1,0 +1,20 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "description": "Node.js, Express.js, ejs",
+  "main": "app.js",
+  "nodemonConfig": {
+    "watch": [
+      "app"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jessie Ko",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
